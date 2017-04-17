@@ -1,2 +1,3 @@
 # perfect-paddles
-This is my Perfect Paddles Project 
+# perfect-paddles
+This is my Perfect Paddles Project
