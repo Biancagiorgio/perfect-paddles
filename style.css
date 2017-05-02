@@ -1,41 +1,52 @@
-.container {
-  max-width: 1120px;
+.banner {
+  /*max-width: 1120px;*/
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.1);
   background-image: url("images/kayak-bkgd.jpg"); rgba(255, 123, 34, .46) center center no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
 }
 
-img {
-  max-width: 100%
+.header__logo {
+  background-color: black;
+  max-width: 100%;
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
 }
 
-p {
+ .header__nav {
+  background-color: black;
+  max-width: 100%;
+  position:relative;
+  right: 0;
+  top: 0;
 }
 
-.banner_title {
+.banner__title {
     text-align: center;
 }
-.banner_span {
+
+.banner__span {
     display: block;
     text-align: center;
 }
 
-.banner_span--enjoy {
+.banner__span--enjoy {
     text-transform: uppercase;
     font-size: 16px;
 }
 
-.banner_span--outdoor {
+.banner__span--outdoor {
     font-size: 60px;
 }
 
-.banner_span--water {
+.banner__span--water {
     font-size: 16px;
 }
 
-.btn-signup {
+.btn {
   border: 2px solid;
     border-radius: 50px;
     background-color: #E34635;
@@ -48,6 +59,10 @@ p {
     border: none;
     display: block;
     margin: 50px auto;
+  }
+
+  .paddlesimages {
+    max-width: 100%;
   }
 
 @media (min-width: 600px){
