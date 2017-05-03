@@ -10,6 +10,8 @@
 .header__logo {
   background-color: black;
   max-width: 100%;
+  position: fixed;
+}
 
 .container {
   margin: 0 auto;
@@ -19,9 +21,7 @@
  .header__nav {
   background-color: black;
   max-width: 100%;
-  position:relative;
-  right: 0;
-  top: 0;
+  position:fixed;
 }
 
 .banner__title {
@@ -73,6 +73,6 @@ img {
 
 @media (min-width: 1100px){
 img {
-  max-width: 30%;
+  max-width: 60%;
   }
 }
