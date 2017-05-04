@@ -7,10 +7,12 @@
 }
 
 .header__logo {
+  background: black;
   background-color: black;
-  max-width: 100%;
-  position: fixed;
-  top: 0%;
+ position: relative;
+ text-align: center;
+ position: fixed relative;
+ width: 100%
 }
 
 .container {
@@ -19,12 +21,23 @@
 }
 
  .header__nav {
-  background-color: black;
-  max-width: 100%;
-  position:fixed;
-  top: 0;
+  background: black;
+  color: white;
+  display: inline-block;
+  position: absolute;
   right: 0;
+  top: 0;
+  text-transform: uppercase;
+  font-weight: bold;
 }
+
+@media (min-width: 600px) {
+   .header_nav {
+     position: absolute;
+     right: 0;
+     top: 0;
+  }
+ }
 
 .banner__title {
     text-align: center;
@@ -78,11 +91,14 @@
     float: left;
 }
 
-
+.map {
+  width: 100%;
+}
 
 @media (min-width: 600px){
-img {
-  max-width: 40%;
+.rental_p {
+  width: 50%;
+  float: left;
   }
 }
 
