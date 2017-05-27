@@ -80,13 +80,12 @@ a{
     color: white;
 }
 
-
-
-@media (min-width: 600px) {
-  .header_logo {
-   max-width: 40%;
+.smlinks {
+  background-color: #0e2021;
+  padding: .1875px .125px;
+  display: inline;
   }
- }
+
 
 .banner__title {
     text-align: center;
@@ -226,10 +225,13 @@ a{
 
 .links {
   background-color: #0e2021;
-  display: flex;
-  justify-content: center;
   padding: .1875px .125px;
-  text-align: center;
+  display: block;
+  list-style: none;
+  }
+
+  .navlink {
+    padding-top: 30px;
   }
 
 .email{
